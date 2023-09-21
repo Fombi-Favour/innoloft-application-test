@@ -5,11 +5,13 @@ import Menubar from './Menubar';
 
 const Layout = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <Menubar/>
-      <Outlet />
-    </div>
+      <div className='flex items-center'>
+        <Menubar/>
+        <Outlet />
+      </div>
+    </>
   )
 }
 
