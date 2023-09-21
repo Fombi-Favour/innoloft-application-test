@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      <div className='flex'>
+      <div className='grid grid-row-1 grid-cols-[auto_1fr]'>
         <Menubar/>
         <Outlet />
       </div>
