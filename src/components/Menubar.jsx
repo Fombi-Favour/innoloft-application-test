@@ -7,7 +7,7 @@ import Organise from '../assets/inno_organizations.svg';
 
 const Menubar = () => {
   return (
-    <main className='hidden md:block md:w-[400px] md:p-5 md:pl-36 border-4'>
+    <main className='hidden md:block md:w-[400px] md:p-5 md:pl-36'>
       <div className='flex flex-col gap-5'>
         <div className='flex items-center gap-3'>
           <img src={Profile} alt="profile-pic" className='rounded-full' />
