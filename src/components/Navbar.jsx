@@ -5,9 +5,9 @@ import Profile from '../assets/profil 1.png';
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#272E71] p-3 px-5 md:p-2 md:px-2 flex md:justify-around">
+    <nav className="bg-[#272E71] p-3 px-5 md:p-2 md:px-2 flex lg:justify-around">
       <img src={Logo} alt="logo" />
-      <div className='hidden md:flex md:items-center gap-20 lg:gap-48'>
+      <div className='hidden lg:flex lg:items-center gap-20 lg:gap-48'>
         <div className="w-[380px] lg:w-[500px] h-[27px] rounded-sm bg-white flex items-center gap-1 px-3">
           <input
             type="text"
