@@ -4,7 +4,7 @@ import Main from '../assets/main.png';
 
 const ProductMain = () => {
   return (
-    <main className='border-2 mt-4'>
+    <main className='border-r-[1px]'>
       <div className='flex flex-col items-stretch'>
         <img src={Main} alt="main" />
         <div className='flex items-center gap-3 absolute bg-white border-t-[#E5E7EB] border-l-[#E5E7EB] rounded-br-md rounded-tl-md pr-2 -mt-1'>
