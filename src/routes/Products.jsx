@@ -22,10 +22,14 @@ const Products = () => {
         </div>
         <NavLink to='edit' className='bg-[#272E71] w-11 text-center rounded-md p-1 text-white'>Edit</NavLink>
       </div>
-      <div className='grid grid-row-2 lg:grid-row-1 grid-cols-[auto] lg:grid-cols-[1fr_auto] lg:gap-2'>
+      <div className='bg-white border-[1px] rounded-xl mt-4 grid grid-row-2 lg:grid-row-1 grid-cols-[auto] lg:grid-cols-[1fr_auto] lg:gap-2'>
         {/* main and user-info sections */}
         <ProductMain />
         <UserInfo />
+      </div>
+      <div className='flex flex-col gap-3'>
+        <ProductVideo />
+        <ProductDetails />
       </div>
     </main>
   )
