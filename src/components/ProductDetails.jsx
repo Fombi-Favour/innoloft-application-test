@@ -45,7 +45,7 @@ const ProductDetails = () => {
         </li>
         {/* Costs */}
         <li className='flex items-start gap-3'>
-          <img src={Tech} alt="technology" />
+          <img src={Cost} alt="technology" />
           <div className='flex flex-col gap-1'>
             <span>Costs</span>
             <div className='flex'>
